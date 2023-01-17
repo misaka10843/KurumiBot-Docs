@@ -1,0 +1,31 @@
+site_name: AoBot Docs
+repo_name: misaka10843/AoBot
+edit_uri: 'https://github.com/misaka10843/AoBot-Docs/tree/main/docs'
+repo_url: https://github.com/misaka10843/AoBot
+copyright: Copyright © 2023 misaka10843 All Rights Reserved.
+
+theme:
+  language: zh
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  plugins:
+    - social:
+        cards_font: Noto Sans SC
+        cards_color:
+          fill: '#ff6e42'
+          text: '#FFFFFF'
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+  palette:
+    primary: deep orange
+    accent: yellow
