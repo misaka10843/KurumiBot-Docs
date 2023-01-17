@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# 这里是KurumiBot项目文档
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+由此开始，你将跟随咱去了解[这个项目](https://github.com/misaka10843/KurumiBot).
 
-## Commands
+## 本项目的特性（Features）
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- 使用 [NoneBot 2](https://v2.nonebot.dev/) 进行项目底层构建.
+- 使用 [go-cqhttp](https://go-cqhttp.org/) 作为默认协议端.
+- 遵循 [OneBot v11](https://onebot.dev/) 规范.
 
-## Project layout
+## 我是用户
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+我只想体验功能:
+
+- [使用手册](user/overview.md)
+
+我想了解这是一个怎样的项目:
+
+- [项目介绍](about.md)
+
+## 我想部署此项目
+
+- 请点击右下角 `Next` 继续阅读.

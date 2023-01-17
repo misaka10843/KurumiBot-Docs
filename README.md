@@ -1,2 +1,2 @@
-# AoBot-Docs
- Docs for AoBot
+# KurumiBot-Docs
+ Docs for KurumiBot

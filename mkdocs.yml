@@ -1,8 +1,31 @@
-site_name: AoBot Docs
-repo_name: misaka10843/AoBot
-edit_uri: 'https://github.com/misaka10843/AoBot-Docs/tree/main/docs'
-repo_url: https://github.com/misaka10843/AoBot
+site_name: KurumiBot Docs
+repo_name: misaka10843/KurumiBot
+edit_uri: 'https://github.com/misaka10843/KurumiBot-Docs/tree/main/docs'
+repo_url: https://github.com/misaka10843/KurumiBot
 copyright: Copyright © 2023 misaka10843 All Rights Reserved.
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: zh
+  - minify:
+      minify_html: true
 
 theme:
   language: zh
@@ -16,16 +39,25 @@ theme:
           fill: '#ff6e42'
           text: '#FFFFFF'
   features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.indexes
+    - navigation.tabs
     - toc.follow
-    - toc.integrate
     - navigation.top
+    - search.suggest
+    - search.highlight
   palette:
     primary: deep orange
     accent: yellow
+nav:
+  - 主页: index.md
+  - 关于: about.md
