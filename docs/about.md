@@ -33,13 +33,13 @@
 
 ## 🔨功能图
 
-![qwq](./Road.png)
+![qwq](https://raw.githubusercontent.com/misaka10843/KurumiBot/main/Road.png)
 
 ## 📣声明
 
 **一切开发旨在学习，请勿用于非法用途**
 
-本项目名称、灵感均来自 ANIPLEX 发行的 ATRI-My Dear Moments-.
+本项目名称、灵感均来自 [芳文社](http://houbunsha.co.jp/) 发行的 [Manga Time Kirara MAX](http://www.dokidokivisual.com/magazine/max/) 中的 [こかむも老师](https://twitter.com/kokakimumose) 的 [胡桃同学是人造人](https://comic-fuz.com/book/24215).
 
 ## 📄许可
 
