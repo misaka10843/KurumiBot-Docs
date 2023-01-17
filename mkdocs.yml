@@ -30,6 +30,8 @@ plugins:
 theme:
   language: zh
   name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
   icon:
     repo: fontawesome/brands/github
   plugins:
