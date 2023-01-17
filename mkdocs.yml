@@ -2,7 +2,13 @@ site_name: KurumiBot Docs
 repo_name: misaka10843/KurumiBot
 edit_uri: 'https://github.com/misaka10843/KurumiBot-Docs/tree/main/docs'
 repo_url: https://github.com/misaka10843/KurumiBot
-copyright: Copyright © 2023 misaka10843 All Rights Reserved.
+copyright: Copyright © 2023 misaka10843 All Rights Reserved. License <a href="https://choosealicense.com/licenses/gpl-3.0/"><strong>GPL v3</strong></a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/misaka10843/KurumiBot
+      name: KurumiBot
 
 markdown_extensions:
   - attr_list
@@ -23,7 +29,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: zh
+      lang: en # 没办法，没赞助不能用中文qwq
   - minify:
       minify_html: true
 
@@ -63,3 +69,12 @@ theme:
 nav:
   - 主页: index.md
   - 关于: about.md
+  - 功能介绍:
+      - 概览: user/overview.md
+      - 基础功能-插件管理: user/service-plugin-manager.md
+      - 基础功能-问答系统: user/service-word-bank.md
+      - 基础功能-帮助菜单: user/service-menu.md
+      - 基础功能-推文订阅: user/service-RSS.md
+      - 基础功能-bilibili相关: user/service-bilibili.md
+      - 高级功能-Comic-fuz漫画更新: user/service-comic-fuz-manga.md
+      - 高级功能-Comic-fuz月刊更新: user/service-comic-fuz-magazine.md
